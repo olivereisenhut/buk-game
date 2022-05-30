@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8986579827154603042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8986579827154603052}
+  - component: {fileID: 8986579827154603043}
+  m_Layer: 0
+  m_Name: ChargedGun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8986579827154603052
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8986579827154603042}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8986579827154603043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8986579827154603042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd59ca430bce3020f8989db21ce60e7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletType: {fileID: 4408222766877305015, guid: 89ce37a17380003da8e365cf482b87da, type: 3}
+  trigger:
+    m_Name: Trigger
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 347c660f-86e4-4f1a-bdf8-574c5b46f057
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 0e3fc1ab-6cba-40ed-8493-2f19fb4900f7
+      m_Path: <Mouse>/rightButton
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Trigger
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 2431ce5a-258a-4007-ab18-be1f21635e13
+      m_Path: <Gamepad>/rightTrigger
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Trigger
+      m_Flags: 0
+    m_Flags: 0
+  inputEnabled: 1
+  maxMuzzleVelocity: 25
+  coolDown: 1
+  minMuzzleVelocity: 5
+  maxChargeTime: 1.5
