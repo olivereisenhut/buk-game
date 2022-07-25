@@ -31,7 +31,7 @@ Install it using your package manager. On Debian based systems including Ubuntu 
 1. Download Unity hub - https://unity3d.com/get-unity/download
 2. Open Unity hub
 3. Skip the recommended install: ![Skip recommended installation](./doc/skip-recommended-install.png)
-4. Install the latest 2022 version. (Apple Silicon users, see next screenshot below this one) ![Unity install](./doc/install-unity.png) .
+4. Install the latest 2022 version. (Apple Silicon users, see next screenshot below this one) ![Unity install](./doc/install-unity.png)  
   **NOTE:** If you use an Apple Silicon MacOS, you must use the Unity Hub Beta version (enable beta inside Unity Hub) to find Unity 2022 in the list of available installs. Then you must select the Silicon version, not the Intel version ![Mac silicon unity install](./doc/install-mac-silicon.png)
 
 ### Clone the git repository
